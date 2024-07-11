@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  transition: background-color 0.3s;
+  z-index: 1000;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-item a {
+  text-decoration: underline;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-item a:hover {
+  background-color: #575757;
+  color: #fff;
+}
+
+.content {
+  margin-top: 80px; /* Height of the fixed navbar */
+  padding: 20px;
+}
+
+section {
+  height: 600px;
+  padding: 20px;
+}
+
+#home {
+
+  background-color: green;
+  color:yellow;
+}
+
+#about {
+  background-color: blue;
+}
+
+#services {
+  background-color: yellow;
+}
+
+#contact {
+  background-color: #aaa;
+}
